@@ -1,7 +1,7 @@
 # TugasPC12
 
 # Input
-
+ ```shell
 import matplotlib.pyplot as plt
 from skimage.morphology import convex_hull_image
 from skimage import data, img_as_float
@@ -27,6 +27,7 @@ ax[1].set_axis_off()
 
 plt.tight_layout()
 plt.show()
+ ```
 
 # Output
 
@@ -34,6 +35,7 @@ plt.show()
 
 # Input
 
+```shell
 import matplotlib.pyplot as plt
 from skimage.morphology import skeletonize
 from skimage import data
@@ -59,6 +61,7 @@ ax[1].set_title('Skeleton', fontsize=20)
 
 fig.tight_layout()
 plt.show()
+```
 
 # Output
 
@@ -66,6 +69,7 @@ plt.show()
 
 # Input
 
+```shell
 import numpy as np
 import matplotlib.pyplot as plt
 from skimage.color import rgb2gray
@@ -99,6 +103,7 @@ ax[1].set_title("Active Contour Image")
 
 plt.tight_layout()
 plt.show()
+```
 
 # Output
 
